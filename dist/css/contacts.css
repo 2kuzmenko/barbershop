@@ -1,0 +1,16 @@
+.wrapperContacts {
+  width: 1200px;
+  height: 378px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  font-style: italic; }
+  .wrapperContacts p {
+    margin-top: 100px;
+    margin-left: 40px; }
+  .wrapperContacts #map {
+    width: 200px;
+    height: 200px; }

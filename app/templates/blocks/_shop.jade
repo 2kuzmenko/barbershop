@@ -1,0 +1,41 @@
+div.item
+    include _shop__titel
+    div.item__content
+        div.rightSide
+            div.rightSide__up
+                h1 ПРОИЗВОДИТЕЛИ:
+                -each name in ["Baxter of California","Mr Natty","Suavecito","Malin+Goetz","Murray’s","American Crew"]
+                    label
+                        input(id='square__check', type='checkbox')
+                        span
+                            label.square(for='square__check') #{name}
+            div.rightSide__down
+                h1 ГРУППЫ ТОВАРОВ:
+                -each prop in ["Бритвенные принадлежности","Средства для ухода","Аксессуары"]
+                    label
+                        input.round#rund__radio(type='radio')
+                        span
+                            label.round(for='rund__radio') #{prop}
+            div.btn
+                a(href='#') Показать
+        -var bl1 = [{ 'urle' : 'css/picture/layer1.png', "text" : 'Набор для путешествий ', 'titel':'«Baxter of California»', 'price' : '2 900 РУБ.'} , { 'urle' : 'css/picture/layer2.png', "text" : 'Увлажняющий кондиционер', 'titel':'«Baxter of California»','price' : '750 РУБ.'}, { 'urle' : 'css/picture/layer3.png', "text" : 'Гель для волос ', 'titel':'«SUAVECITO»', 'price' : '500 РУБ.'}, { 'urle' : 'css/picture/layer4.png', "text" : 'Глина для укладки волос ', 'titel':'«American crew»', 'price' : '750 РУБ.'}, { 'urle' : 'css/picture/layer44.png', "text" : 'Гель для волос ', 'titel':'AMERECAN CREW', 'price' : '300 РУБ.'}, { 'urle' : 'css/picture/layer5.png', "text" : 'Набор для бритья','titel':'«Baxter of California»', 'price' : '1750 РУБ.'}]
+        div.leftSide
+            each prop in bl1
+                div.leftSide__block
+                    div.leftSide__block__picture-link
+                        a.picture-link(href='/item.html')
+                            img(src='#{prop.urle}', width='220px', height= '165px')
+                    div.leftSide__block__text
+                        p= prop.text
+                        h3= prop.titel
+                    div.leftSide__block__pribtn
+                        div.leftSide__block__price= prop.price
+                        div.leftSide__block__btn КУПИТЬ
+    div.pageing
+        each val in ['1','2','3','4']
+            div.pageing__nr
+                a(href='#') #{val}
+
+
+
+

@@ -1,0 +1,171 @@
+body {
+  width: 2560px;
+  height: 1716px;
+  background: #000000 url(picture/tint.png);
+  background-size: cover; }
+  body div.content__newsUp_line {
+    margin: 75px 10px 66px;
+    width: 8px;
+    height: 278px;
+    background: url("picture/back_new_line.png");
+    background-size: cover; }
+  body .content {
+    color: #f7f4f1;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body .content .content__pic {
+      margin-top: 55px;
+      width: 368px;
+      height: 204px;
+      background: url(picture/borodinski-logo.png);
+      background-size: cover; }
+    body .content .content__block {
+      width: 940px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 43px; }
+      body .content .content__block .content__block__fea {
+        width: 265px;
+        align-items: center;
+        justify-content: center; }
+        body .content .content__block .content__block__fea h1 {
+          text-align: center;
+          margin-bottom: 10px; }
+        body .content .content__block .content__block__fea p {
+          margin-top: 22px;
+          text-align: center; }
+        body .content .content__block .content__block__fea div {
+          margin: 0 auto;
+          width: 30px;
+          height: 29px;
+          background: url(picture/white-rectangle.png);
+          background-size: cover; }
+    body .content div.content__newsUp {
+      width: 940px;
+      height: 419px;
+      background: url("picture/back_news.png");
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      color: #000000;
+      margin-bottom: 35px; }
+      body .content div.content__newsUp .content__newsUp__text {
+        width: 360px;
+        margin-top: 30px;
+        margin-left: 75px;
+        display: flex;
+        flex-direction: column; }
+        body .content div.content__newsUp .content__newsUp__text h1 {
+          margin-bottom: 19px; }
+        body .content div.content__newsUp .content__newsUp__text h2 {
+          margin-top: 0;
+          margin-bottom: 0; }
+        body .content div.content__newsUp .content__newsUp__text p.date {
+          margin-top: 0;
+          margin-bottom: 0;
+          text-transform: lowercase; }
+        body .content div.content__newsUp .content__newsUp__text .content__newsUp__text__up, body .content div.content__newsUp .content__newsUp__text .content__newsUp__text__down {
+          margin-bottom: 24px; }
+      body .content div.content__newsUp div.content__newsUp_line {
+        margin: 75px 24px 66px;
+        width: 8px;
+        height: 278px;
+        background: url("picture/back_new_line.png");
+        background-size: cover; }
+      body .content div.content__newsUp div.content__newsUp__foto {
+        width: 300px;
+        margin: 30px 64px 25px;
+        display: flex;
+        flex-direction: column; }
+        body .content div.content__newsUp div.content__newsUp__foto .content__newsUp__foto__pic {
+          width: 300px;
+          height: 178px;
+          background-color: #ffffff;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body .content div.content__newsUp div.content__newsUp__foto .content__newsUp__foto__pic div {
+            width: 286px;
+            height: 164px;
+            background: url("picture/foto_news.png");
+            background-size: cover; }
+        body .content div.content__newsUp div.content__newsUp__foto .content__newsUp__foto__nav {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+    body .content div.content__contact {
+      width: 940px;
+      height: 396px;
+      display: flex;
+      flex-direction: row;
+      background: url("picture/back_news.png");
+      background-size: cover;
+      color: #000000;
+      margin-bottom: 65px; }
+      body .content div.content__contact .content__newsUp_line {
+        margin-left: 3px; }
+      body .content div.content__contact .content__contact__rightside {
+        width: 383px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 28px;
+        margin-left: 75px; }
+        body .content div.content__contact .content__contact__rightside h2 {
+          margin-top: 0;
+          margin-bottom: 0; }
+        body .content div.content__contact .content__contact__rightside .content__contact__rightside__btn {
+          display: flex;
+          flex-direction: row; }
+          body .content div.content__contact .content__contact__rightside .content__contact__rightside__btn .btn {
+            margin: 25px 20px 0 0; }
+      body .content div.content__contact .content__contact__leftside {
+        width: 302px;
+        display: flex;
+        flex-direction: column;
+        margin: 28px 75px; }
+        body .content div.content__contact .content__contact__leftside h2 {
+          margin: 0 2px; }
+        body .content div.content__contact .content__contact__leftside form {
+          margin-top: 12px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between; }
+          body .content div.content__contact .content__contact__leftside form input {
+            height: 43px;
+            border: 2px solid #000101;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 20px;
+            font-family: 'PT Sans', sans-serif;
+            text-transform: uppercase; }
+          body .content div.content__contact .content__contact__leftside form input[type=text] {
+            width: 130px;
+            background-color: #f9f6f3;
+            margin-top: 10px;
+            padding-left: 10px; }
+          body .content div.content__contact .content__contact__leftside form input[type=submit] {
+            width: 300px;
+            height: 43px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 20px; }
+          body .content div.content__contact .content__contact__leftside form ::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: black; }
+          body .content div.content__contact .content__contact__leftside form ::-moz-placeholder {
+            /* Firefox 19+ */
+            color: black; }
+          body .content div.content__contact .content__contact__leftside form :-ms-input-placeholder {
+            /* IE 10+ */
+            color: black; }
+          body .content div.content__contact .content__contact__leftside form :-moz-placeholder {
+            /* Firefox 18- */
+            color: black; }

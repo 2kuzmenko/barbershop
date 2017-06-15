@@ -1,0 +1,52 @@
+
+
+/**********************FONTS*********/
+
+body {
+  width: 100%;
+  height: 100%;
+  //color: #333;
+  //background: url(picture/tint.png) center center fixed;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+  // ****FONTS -->TEXT**********
+  h1 {
+    font-size: 27px; // 30px було в avacode
+    line-height: 42px;
+  }
+  p {
+    font-size: 13px; //14px було в avacode
+    line-height: 24px;
+  }
+
+  h2{
+    font-size: 12px; //14px; було в avacode
+    line-height: 24px;
+  }
+
+
+ // *************ЧОРНІ КНОПКИ З БІЛИМ ТЕКСТОМ******
+.btn {
+  width: 140px;
+  height: 44px;
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  a {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 13px; //14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+  }
+}

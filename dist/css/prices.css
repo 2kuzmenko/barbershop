@@ -1,0 +1,124 @@
+/**********************FONTS*********/
+body {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 27px;
+  line-height: 42px; }
+
+p {
+  font-size: 13px;
+  line-height: 24px; }
+
+h2 {
+  font-size: 12px;
+  line-height: 24px; }
+
+.btn {
+  width: 140px;
+  height: 44px;
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  opacity: 1; }
+  .btn a {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none; }
+
+.wrapperPricelist {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  font-weight: bold; }
+  .wrapperPricelist .priceList {
+    font-size: 30px;
+    line-height: 42px;
+    margin-left: 130px;
+    color: #000000;
+    margin-top: 56px; }
+  .wrapperPricelist .miniWra {
+    display: flex;
+    margin-left: 130px;
+    font-size: 14px;
+    line-height: 24px; }
+    .wrapperPricelist .miniWra a {
+      text-decoration: none;
+      color: #000000; }
+    .wrapperPricelist .miniWra .staR {
+      background-image: url(picture/shape-1.png);
+      width: 12px;
+      height: 12px;
+      margin-left: 15px;
+      margin-top: 6px; }
+    .wrapperPricelist .miniWra p {
+      margin: 0 0 0 10px;
+      color: #aba9a7; }
+  .wrapperPricelist .mensHealth {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 60px; }
+    .wrapperPricelist .mensHealth .line {
+      background-image: url(picture/layer-24.png);
+      width: 120px;
+      height: 2px;
+      margin-top: 30px; }
+    .wrapperPricelist .mensHealth p {
+      font-size: 48px;
+      margin: 0 25px; }
+  .wrapperPricelist .weUseBestThings {
+    margin-left: 130px;
+    margin-top: 73px;
+    display: flex;
+    flex-wrap: wrap; }
+    .wrapperPricelist .weUseBestThings p {
+      font-size: 20px;
+      margin: 0; }
+    .wrapperPricelist .weUseBestThings ul {
+      padding-left: 15px; }
+    .wrapperPricelist .weUseBestThings li {
+      font-size: 12px;
+      margin-top: 27px;
+      margin-left: 0; }
+    .wrapperPricelist .weUseBestThings li:nth-of-type(1) {
+      margin-top: 37px; }
+  .wrapperPricelist .itemSecond {
+    margin-left: 242px; }
+  .wrapperPricelist table {
+    text-align: left;
+    margin-top: 40px;
+    border-collapse: collapse; }
+    .wrapperPricelist table th {
+      width: 231px;
+      height: 43px;
+      font-size: 14px;
+      border: 1px solid black;
+      box-sizing: border-box; }
+    .wrapperPricelist table .centerAl {
+      text-align: center; }
+    .wrapperPricelist table .miniMarg {
+      padding-left: 20px; }
+  .wrapperPricelist .itemThird h5 {
+    font-size: 20px; }
+  .wrapperPricelist .itemThird p {
+    font-size: 14px;
+    line-height: 24px; }
+  .wrapperPricelist .itemFour {
+    margin-top: 93px;
+    margin-left: 101px; }
+    .wrapperPricelist .itemFour p {
+      font-size: 14px;
+      line-height: 24px; }

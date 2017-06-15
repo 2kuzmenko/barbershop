@@ -1,0 +1,85 @@
+@import "main";
+
+  .header {
+    height: 72px;
+    width: 2560px;
+    display: flex;
+    background-color: black;
+    margin: 0 auto;
+
+    .menuRows {
+      height: 70px;
+      width: 80px;
+      margin-left: 21px;
+
+    }
+
+    .menuRows:nth-of-type(1) {
+      width: 100px;
+      margin-left: -3px;
+    }
+
+    .logoBarber {
+      margin-top: 21px;
+      background-image: url(picture/logo.png);
+      background-size: 100%;
+      width: 111px;
+      height: 24px;
+      display: inline-block;
+      margin-left: 150px;
+    }
+
+    ul {
+      display: flex;
+      margin-top: 2px;
+      text-align: center;
+
+      .menuRows:hover {
+        background-image: url(picture/layer-35-copy-7-s-color-fill.png);
+        width: 80px;
+        height: 70px;
+
+      }
+
+      .menuRows:nth-of-type(1):hover {
+        width: 100px;
+      }
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 13px;
+      font-family: 'PT Sans', sans-serif;
+      //font-style:NarrowBold;
+      margin-top: 23px;
+
+    }
+
+    .rightButtons {
+      margin-top: 1px;
+      display: flex;
+      margin-left: 100px;
+
+      .enterIn {
+        background-size: 100%;
+        width: 18px;
+        height: 16px;
+        background-image: url(picture/-icon-login.png);
+        margin: 2px 13px 0 100px;
+        margin-top: 23px;
+
+      }
+
+      a {
+        height: 70px;
+        margin-left: 10px;
+        width: 100px;
+        font-size: 13px;
+      }
+
+    }
+  }
+//}
+

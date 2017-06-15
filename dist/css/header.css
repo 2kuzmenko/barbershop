@@ -1,0 +1,95 @@
+/**********************FONTS*********/
+body {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 27px;
+  line-height: 42px; }
+
+p {
+  font-size: 13px;
+  line-height: 24px; }
+
+h2 {
+  font-size: 12px;
+  line-height: 24px; }
+
+.btn {
+  width: 140px;
+  height: 44px;
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  opacity: 1; }
+  .btn a {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none; }
+
+.header {
+  height: 72px;
+  width: 2560px;
+  display: flex;
+  background-color: black;
+  margin: 0 auto; }
+  .header .menuRows {
+    height: 70px;
+    width: 80px;
+    margin-left: 21px; }
+  .header .menuRows:nth-of-type(1) {
+    width: 100px;
+    margin-left: -3px; }
+  .header .logoBarber {
+    margin-top: 21px;
+    background-image: url(picture/logo.png);
+    background-size: 100%;
+    width: 111px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 150px; }
+  .header ul {
+    display: flex;
+    margin-top: 2px;
+    text-align: center; }
+    .header ul .menuRows:hover {
+      background-image: url(picture/layer-35-copy-7-s-color-fill.png);
+      width: 80px;
+      height: 70px; }
+    .header ul .menuRows:nth-of-type(1):hover {
+      width: 100px; }
+  .header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 23px; }
+  .header .rightButtons {
+    margin-top: 1px;
+    display: flex;
+    margin-left: 100px; }
+    .header .rightButtons .enterIn {
+      background-size: 100%;
+      width: 18px;
+      height: 16px;
+      background-image: url(picture/-icon-login.png);
+      margin: 2px 13px 0 100px;
+      margin-top: 23px; }
+    .header .rightButtons a {
+      height: 70px;
+      margin-left: 10px;
+      width: 100px;
+      font-size: 13px; }

@@ -1,0 +1,37 @@
+
+div.item
+    div.shop-titel
+        include _shop__titel
+    div.wrapperItem
+        div.leftSide
+            div.wrapperItem__picture
+        div.rightSide
+            div.rightSide__nr
+                p есть в наличии
+                p.art Артикул: dexter-ae
+            p.rightSide__text Travel Kit – необходимый аксессуар во время любого
+                | путешествия. В аккуратной кожаной сумке находится все, что
+                | нужно для бритья и ухода за кожей во время рабочей поездки
+                | или отдыха: средство для умывания, увлажняющий крем, крем
+                | для бритья, крем после бритья, шампунь. Набор также может
+                | стать отличным подарком.
+
+            div.leftSide__block__pribtn
+                div.leftSide__block__price
+                    p 2000
+                div.leftSide__block__btn КУПИТЬ
+
+            div.rightSide__item
+                -var items = ['Средство для умывания (50 мл)', 'Увлажняющий крем (50 мл)','Крем для бритья (50 мл)', 'Крем после бритья, шампунь (50 мл)', 'Удобная кожаная косметичка']
+                ul
+                    h1 В набор входят:
+                    -each prop in items
+                        li
+                            p #{prop}
+
+
+
+script(type="text/javascript" src="app/js/_item-list.js")
+
+
+

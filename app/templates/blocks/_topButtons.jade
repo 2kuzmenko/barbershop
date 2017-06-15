@@ -1,0 +1,14 @@
+-
+    var menuitem= {
+    ИНФОРМАЦИЯ:'information.html',
+    НОВОСТИ:'news.html',
+    ПРАЙСЛИСТ:'prices.html',
+    МАГАЗИН:'shop.html',
+    КОНТАКТЫ:'contacts.html'
+    }
+ul
+    each value,index in menuitem
+        div.menuRows
+            a(href=value)= index
+
+
